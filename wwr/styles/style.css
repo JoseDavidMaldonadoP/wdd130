@@ -166,7 +166,7 @@ nav {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 .rivers-card {
     grid-column: 2/4;
@@ -231,6 +231,117 @@ nav {
     footer {
         margin-top: 25px;
     }
-}        
+}  
+/*  PAGE RIVERS! */
+#content2 {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+.river-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .river-title {
+        font-size: 50px;
+        color: #254fa1;
+    }
+    .card-img2 {
+        border: 10px solid #0c0c0c;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #13b6ae;
+        width: 100%;
+            }
+            .card-img2:hover {
+                opacity: .9;
+                transform: scale(1.1);
+            }    
+    .river1, .river2, .river3 {
+        margin: 25px 0;
+    }
+    .river1 {
+        grid-column:1/4;
+        grid-row: 2/4;
+    }
+    .river2 {
+        grid-column: 1/4;
+        grid-row: 5/7;
+    }
+    .river3 {
+        grid-column: 1/4;
+        grid-row: 8/10;
+    }
+    
+.paragraph1,.paragraph2,.paragraph3 {
+    border: 5px solid #0c0c0c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #2e0972;
+    text-align: center;
+    border-radius: 50px;
+  
+}
+
+.paragraph1 {
+    grid-column: 5/8;
+    grid-row: 2/4;
+    
+}
+.paragraph2 {
+    grid-column: 5/8;
+    grid-row: 5/7;
+    
+}
+.paragraph3 {
+    grid-column: 5/8;
+    grid-row: 8/9;
+    margin-top: 50px;
+}
+.button-box1,.button-box2,.button-box3 {
+    color: rgb(27, 3, 3);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px 30px;
+    margin: 200px;
+    border-radius: 10px;
+    }
+    .button-box1:hover,.button-box2:hover,.button-box3:hover {
+        color: rgb(227, 236, 231); 
+        }
+        .button-box1 {
+            grid-column: 8/10;
+            grid-row: 2/4;
+            
+        }
+        .button-box2 {
+            grid-column: 8/10;
+            grid-row: 5/7;
+        }
+        .button-box3 {
+            grid-column: 8/10;
+            grid-row: 8/9;
+        }
+
+        .title1,.title2,.title3 {
+            color: #972828;
+            font-family: 'Cherry+Swash', Courier, monospace;
+            margin: 50px;
+            font-size: 40px;
+            padding: 15px 30px;
+            text-align: center;          
+            }
+            .title1{
+                grid-column: 3/8;
+            grid-row: 1/2;
+            }
+            .title2{
+                grid-column: 3/8;
+            grid-row: 4/5;
+            }
+            .title3{
+                grid-column: 3/8;
+            grid-row: 7/8;
+            }
+
+
+
 
       
