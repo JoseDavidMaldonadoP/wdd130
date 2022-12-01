@@ -341,7 +341,7 @@ nav {
             grid-row: 7/8;
             }
 
-/* page Contact us */
+/*------------------------------------------------ page Contact us-------------------------------- */
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -409,7 +409,7 @@ form {
   }
 
   #feedback {
-    background-color: antiquewhite;
+    background-color: rgb(231, 125, 76);
     position: absolute;
     top: 0;
     left: 0;
