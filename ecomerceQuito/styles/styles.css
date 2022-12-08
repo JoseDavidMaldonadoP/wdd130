@@ -117,7 +117,7 @@ nav a:hover {
         margin-top: 100px;
         }
     .P-S, .ByS, .Knowus { 
-        margin-block-end: 100px;
+        margin-block-end: 200px;
     }
     .P-S {
         grid-column: 2/4;
@@ -234,7 +234,7 @@ nav a:hover {
         text-align:center;        
         }
     .Technology, .Logistic, .Outfit,.Education { 
-        margin-block-end: 100px;
+        margin-block-end: 150px;
     }
     .Technology {
         grid-column: 3/6;
@@ -341,7 +341,7 @@ nav a:hover {
     text-align:center;        
     }
 .SandE, .TandC, .Perfumery,.TandT { 
-    margin-block-end: 100px;
+    margin-block-end: 150px;
 }
 .SandE {
     grid-column: 3/6;
