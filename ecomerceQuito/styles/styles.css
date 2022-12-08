@@ -50,7 +50,7 @@ nav a:hover {
     h1 {
         text-align: center;
         width: 1600px; 
-        color: solidblack;
+        color: black;
         background-color: #448b82;
         margin:0 auto;
         border-radius: 5px;
@@ -117,7 +117,7 @@ nav a:hover {
         margin-top: 100px;
         }
     .P-S, .ByS, .Knowus { 
-        margin-block-end: 200px, 0;
+        margin-block-end: 100px;
     }
     .P-S {
         grid-column: 2/4;
@@ -234,7 +234,7 @@ nav a:hover {
         text-align:center;        
         }
     .Technology, .Logistic, .Outfit,.Education { 
-        margin-block-end: 300px, 0;
+        margin-block-end: 100px;
     }
     .Technology {
         grid-column: 3/6;
@@ -341,7 +341,7 @@ nav a:hover {
     text-align:center;        
     }
 .SandE, .TandC, .Perfumery,.TandT { 
-    margin-block-end: 300px, 0;
+    margin-block-end: 100px;
 }
 .SandE {
     grid-column: 3/6;
