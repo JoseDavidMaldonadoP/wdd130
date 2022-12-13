@@ -134,9 +134,11 @@ nav a:hover {
     .advertisement {
         width: 100% ;
         height:450px ;
-        grid-column: 2/10;
+        grid-column: 2/11;
         grid-row: 5/8;
-        box-shadow: 5px 5px 10px #6f7364;
+        box-shadow: 5px 5px 10px #e8eb69;
+        border-radius: 30px;
+        margin-block-end: -30px;
     }
     .card-img {
         border: 10px solid #0c0c0c;
@@ -159,8 +161,21 @@ nav a:hover {
         border-radius: 10px;
     }
     .join {
-        grid-column: 9/12;
+        grid-column: 9/11;
         grid-row: 6/7;
+        margin: 8px;
+    }
+    .msgIPS {       
+        margin-left: -40px;
+        background-color:#83e791;
+        line-height: 1.2em;
+        padding: 10px;
+        grid-column: 7/11;
+        grid-row: 5/6;
+        box-shadow: 2px 5px 10px #0918e6; 
+        z-index: 2;
+        border-radius: 30px;
+        font-size: 12px;                    
     }
     h2 {
         margin: 0;       
@@ -305,7 +320,7 @@ nav a:hover {
         border-radius: 10px;
         text-align: center;
         grid-column: 11/13;
-        grid-row: 7/8;
+        grid-row: 8/9;
         z-index: 2;
         height: 40px;
         line-height: 40px;
@@ -320,7 +335,7 @@ nav a:hover {
         animation: cambiar 7s infinite;
         padding-left: 1px;        
     }
-    @keyframes cambiar {
+        @keyframes cambiar {
         0% {margin-top: 0;}
         20%{margin-top: 0;}
 
@@ -544,5 +559,57 @@ button:active {
 .moveDown {
     margin-top: 3em;
 }
+/* -------------------------------ajuste de pantalla--------------------------------------- */
+@media screen and (max-width: 900px) {
+    #hero, .home-grid, .Business-grid, .Profesional-grid  {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 20px;
+        display: block;
+        /*color: #6f7364;*/
+    }
+    #background, #backgroundBS, #backgroundPS {
+        display: none;
+    }
+    .logo {
+        width: 120px;
+        align-self: center;
+        margin-top: -25px;
+        margin-left: 30px;
+        border-radius: 30px;
+    }
+    h1 {
+        text-align:center;
+        width: 900px; 
+        color: black;               
+    }
+    .P-S, .ByS, .Knowus { 
+        margin: 60px auto;
+        width: 60%;
+   }
+    footer {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+}  
 /*----------------------------------fin-------------------------------------*/
 
